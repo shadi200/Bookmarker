@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <title>Bookmark</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="my-4">Bookmarker</h2>
+        </div>
+    </header>
+    <div class="container">
+        <div class="site text-center">
+            <div>
+                <h2 class="py-5">Bookmark your favorite sites</h2>
+                <form>
+                    <label for="SiteName">Site Name</label><br><br>
+                    <input type="text" id="SiteName" placeholder="Bookmark Name"><br><br>
+                    <label for="SiteURL">Site URL</label><br><br>
+                    <input type="text" id="SiteURL" placeholder="website URL"><br><br>
+                </form>
+                <div class="m-auto">
+                    <button class="btn btn-primary" onclick="submit()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="move row">
+            <div class="vis col-md-6" id="visit">
+                <!-- <h3>shadi</h3>
+                    <a class="btn btn-primary" href="" target="_blank">Visit</a>
+                    <button class="btn btn-danger btndelete " >Delete</button> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>© 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

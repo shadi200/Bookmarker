@@ -1,0 +1,60 @@
+* {
+  font-family: arial;
+}
+header .container {
+  color: #aaa;
+  padding: 25px;
+  border-bottom: 1px solid #999;
+  font-size: 25px;
+  font-weight: 900;
+}
+.container {
+  width: 80%;
+}
+h2 {
+  font-weight: 900;
+}
+.site {
+  background-color: #eeeeee;
+  width: 97%;
+  height: 400px;
+  margin: 20px;
+}
+.site form input {
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  max-height: 2em;
+}
+.site form label {
+  font-weight: bold;
+}
+.vis h3 {
+  font-weight: 600;
+  width: 30%;
+  height: 44px;
+}
+.vis a {
+  margin: -51px 90px;
+  float: right;
+}
+.vis button {
+  float: right;
+  margin: -51px 0;
+}
+.move {
+  padding: 20px 40px;
+  background-image: linear-gradient(#eee, #fff);
+  width: 97%;
+  margin: 20px;
+}
+footer p {
+  color: #aaa;
+  font-weight: bold;
+}
+footer .container {
+  padding: 35px;
+  border-top: 1px solid #999;
+  font-size: 14px;
+}
